@@ -1,2 +1,1 @@
-# SensorayWrapper
-SensorayWrapper
+# MagneticHaptic
