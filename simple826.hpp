@@ -25,7 +25,7 @@ class Simple826{
 		Simple826();
 		~Simple826();
 		void SetDacOutput(uint *chan, double *volts);  //chan->channel number  volt->voltage
-		void GetDacOutput(uint *chan, double *volts);  //chan->channel number  volt->voltage !!!! THIS IS NOT A ANALOG READ (this just returns the output current value)----
+		void GetDacOutput(uint *chan, double *volts);  //chan->channel number  volt->voltage !!!! THIS IS NOT An ANALOG READ (this just returns the output current value)----
 		int GetError();  // Retruns error 
 		void PrintError(); //Prints error
 		// cv::Mat GetCurrentD2A();	//Returns the current frame from the camera (Type : opencv Mat)
